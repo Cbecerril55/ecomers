@@ -4,7 +4,7 @@ body{
 
 header{
     height: 100px;
-    background-color: #919395;
+    background: linear-gradient(135deg,#6c876a 0%, #2a4431 75%, #192617 100%);
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -15,7 +15,8 @@ header{
     color: #fff;
 }
 header img{
-    width: 50px;
+    height: 50px;
+    width: 100px;
    
 }
 
@@ -131,7 +132,17 @@ footer{
     margin-left: 20px;
     margin-right: 20px;
 }
+#construccion{
+    background-image: url("../img/pexels-pixabay-257636.jpg");
+    background-repeat: no-repeat;
+    min-width: 100vh;
+    min-height: 100vh;
+    text-align: center;
+}
 
+#construccion h1{
+    padding-top: 25%;
+}
 .centro{
     display: flex;
     flex-direction: column;
@@ -141,7 +152,8 @@ footer{
     display: flex;
 }
 .logoFooter{
-    width: 80px;
+    height: 100px;
+    width: 200px;
 }
 .cetradoTexto {
     text-align: center;
