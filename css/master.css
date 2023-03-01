@@ -8,7 +8,12 @@ header{
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
+.navbar-light .navbar-nav .nav-link{
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link.active{
+    color: #fff;
+}
 header img{
     width: 50px;
    
@@ -17,6 +22,9 @@ header img{
 header svg{
     color: #fff;
     width: 40px;
+}
+footer{
+    background-color: #584d48;
 }
 
 #secDestacada{
@@ -106,6 +114,24 @@ header svg{
     border-radius: 12px;
 }
 
+#secFoot{
+    padding-top: 20px;
+}
+#secFoot h4{
+    text-align: center;
+}
+
+#secFoot .row{
+    padding-bottom: 20px;
+}
+#secFoot svg{
+    color: #C5A466;
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 .centro{
     display: flex;
     flex-direction: column;
@@ -114,3 +140,10 @@ header svg{
 .menu{
     display: flex;
 }
+.logoFooter{
+    width: 80px;
+}
+.cetradoTexto {
+    text-align: center;
+}
+
