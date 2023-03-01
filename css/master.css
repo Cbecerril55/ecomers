@@ -1,0 +1,116 @@
+body{
+    color: #fff;
+}
+
+header{
+    height: 100px;
+    background-color: #919395;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header img{
+    width: 50px;
+   
+}
+
+header svg{
+    color: #fff;
+    width: 40px;
+}
+
+#secDestacada{
+    padding-top: 50px;
+    height: 80vh;
+    background-image: url("../img/carretera.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+#secDestacada h1:hover{
+    color: #1c224b;
+}
+
+#secDestacada button{
+    border: 5px solid #C5A466;
+    margin-top: 20px;
+    background-color: #C5A466;
+    color: #fff;
+    padding: 10px;
+    border-radius: 12px;
+}
+#secDestacada button:hover{
+    border: 5px solid #dec88c;
+    background-color: #dec88c;
+    color: #1c224b;
+}
+
+#secLeyenda{
+    background-color: #c5a466;
+    padding-bottom: 40px;
+}
+
+#secLeyenda svg{
+    height: 75px;
+    width: 75px;
+    padding-top: 40px;
+}
+
+#secCarrusel{
+    height: 500px;
+    background-color: #919395;
+    overflow: hidden;
+}
+
+#secCarrusel img{
+    max-width: 60%;
+    height: auto;
+    margin-left: 20%;
+    
+}
+
+#secFormulario{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: linear-gradient(135deg,#6c876a 0%, #2a4431 75%, #192617 100%);
+}
+
+#secFormulario form{
+    padding: 10px;
+    background-color: #919395;
+    border: 3px solid #919395;
+    border-radius: 10px;
+}
+
+#secFormulario button{
+    border: 5px solid #C5A466;
+    background-color: #C5A466;
+}
+
+#secFormulario button:hover{
+    border: 5px solid #dec88c;
+    background-color: #dec88c;
+    color: #1c224b;
+}
+
+#secFormulario h2{
+    text-align: center;
+}
+
+#btnUbicacion{
+    border: 5px solid #C5A466;
+    color: #fff;
+    margin-top: 40px;
+    margin-left: 36%;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.centro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu{
+    display: flex;
+}
